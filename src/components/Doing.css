@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titleDoing {
+    background-color: rgb(233, 119, 119);
+    text-align: center;
+    margin: 10px 10px;
+    padding-top: 20px;
+    height: 50px;
+}
+
+.do {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0 0 5px 12px;
+    width: 94%;
+    border: 2px solid rgb(248, 167, 137);
+    border-top: none;
+}
+
+.do .Box {
+    height: 56px;
+    width: 80%;
+    margin: 0px 0 0px 10px;
+    border-right: 1px solid rgb(248, 167, 137);
+}
+
+.do .Box .completed {
+    background-image: url(images/tick.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: white;
+}
+
+.do .list {
+    width: 100%;
+}
+
+.do .list textarea {
+    margin-top: 5px;
+    width: 98%;
+    text-align: center;
+    padding-top: 10px;
+    border: none;
+}
+
+.crossText {
+    text-decoration: line-through;
+}

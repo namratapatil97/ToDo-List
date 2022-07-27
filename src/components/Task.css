@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 10px 0 10px;
+}
+
+.title {
+    background-color: aquamarine;
+    text-align: center;
+    margin: 10px 10px;
+    padding-top: 20px;
+    height: 50px;
+}
+
+.task .box {
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 56px;
+    width: 80%;
+    margin: 0px 0 0px 10px;
+    border-right: 1px solid rgb(248, 167, 137);
+
+}
